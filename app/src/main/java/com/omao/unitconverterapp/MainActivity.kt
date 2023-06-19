@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         btn1.setOnClickListener() {
             val userInput: Double = et1.text.toString().toDouble()
-            tv1.text = ""+ convertToPounds(userInput)+"pounds"
+            tv1.text = ""+ convertToPounds(userInput)+"Pounds"
         }
 
     }
